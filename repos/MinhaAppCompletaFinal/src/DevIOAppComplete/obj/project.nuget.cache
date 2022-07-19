@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jLstecfmEc6se8TnzXZgesOvs31Vpx4wb2PpFxHdPW8ev3iIu1fdW7YyX17yM27Z5gylJgMwYDTr80xG6Co4CA==",
+  "dgSpecHash": "Ua5ApJI8SdSVf4VrzS7ehxoVjK4HUrDAfvognlNQTIRmRwrMHtitF05mtXZMCUDaD3yWg2/0DZoZFKgNl87j2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiago Cavagna\\source\\repos\\MinhaAppCompletaFinal\\src\\DevIOAppComplete\\DevIOAppComplete.csproj",
+  "projectFilePath": "C:\\Users\\Thiago Cavagna\\Documents\\GitHub\\Asp.Net\\repos\\MinhaAppCompletaFinal\\src\\DevIOAppComplete\\DevIOAppComplete.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.7\\microsoft.aspnetcore.cryptography.internal.6.0.7.nupkg.sha512",
