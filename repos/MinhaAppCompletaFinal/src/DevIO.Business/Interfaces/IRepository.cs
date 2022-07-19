@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace DevIO.Business.Interfaces
 {
+    //Injeção de dependência
     //interface com os métodos que tem de ser implementados
-    internal interface IRepository<TEntity> : IDisposable where TEntity : Entity
+    public interface IRepository<TEntity> : IDisposable where TEntity : Entity
     {
         Task Adicionar(TEntity entity);
         Task<TEntity> ObterPorID(Guid id);

@@ -2,6 +2,9 @@ using DevIOAppComplete.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using DevIO.Data.Context;
+using DevIO.Business.Intefaces;
+using DevIO.Data.Repository;
+using DevIOAppComplete.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +20,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.ResolveDependencies();
+
 
 var app = builder.Build();
 
