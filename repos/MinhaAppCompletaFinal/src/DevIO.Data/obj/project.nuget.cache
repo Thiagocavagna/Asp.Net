@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GiZC0Zg/WRoz6zPAqSnDQe/xBG4JEQ8aKEvflEREzaeVvyn5rKVNsYeun5NZklbsok4OcEiRPuc8jXAqV8lIjg==",
+  "dgSpecHash": "kNAjBkJzwg806TRt428gT/T/k/t9Xx1jOA3NuNcawRBOPVXmDcSn1kWmP6Z2vE0t65RLSJJtcIhTBF5hIn4cUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiago Cavagna\\Documents\\GitHub\\Asp.Net\\repos\\MinhaAppCompletaFinal\\src\\DevIO.Data\\DevIO.Data.csproj",
+  "projectFilePath": "C:\\Users\\Thiago Cavagna\\Desktop\\repos\\MinhaAppCompletaFinal\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",

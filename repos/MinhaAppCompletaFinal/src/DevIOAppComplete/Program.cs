@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using DevIO.Data.Context;
 using DevIO.Business.Intefaces;
 using DevIO.Data.Repository;
-using DevIOAppComplete.Configurations;
+//using DevIOAppComplete.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +21,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-builder.Services.ResolveDependencies();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); //configurar automapper
+
+builder.Services.AddScoped<MeuDbContext>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
 
 
 var app = builder.Build();
