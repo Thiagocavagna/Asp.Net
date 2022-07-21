@@ -11,5 +11,6 @@ namespace DevIOAppComplete.Data
         {
         }
         public DbSet<DevIOAppComplete.ViewModels.ProdutoViewModel> ProdutoViewModel { get; set; }
+        public DbSet<DevIOAppComplete.ViewModels.EnderecoViewModel> EnderecoViewModel { get; set; }
     }
 }
