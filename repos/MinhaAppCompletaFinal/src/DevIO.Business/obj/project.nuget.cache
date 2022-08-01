@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GX+I40ufeJfrA5qIE7uW1d45Ztrx/n+ZBChlahMaXjngq+CunXV6zoG65sYdCWuOTcj9wBv0IYTtb91l3332RQ==",
+  "dgSpecHash": "jN0Zpmi94rdUHjPf2GKQfz9Ms76ABLbe41kCtC50wqh+JEs15J1cc+qjv9yBo3j1WUPENKcHlHs29LS+eLq/tA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiago Cavagna\\Desktop\\repos\\MinhaAppCompletaFinal\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "C:\\Users\\Thiago Cavagna\\Documents\\GitHub\\Asp.Net\\repos\\MinhaAppCompletaFinal\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Thiago Cavagna\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
